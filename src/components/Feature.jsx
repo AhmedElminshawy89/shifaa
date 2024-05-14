@@ -5,7 +5,7 @@ const Feature = () => {
   return (
     <div
       id="ما_يميزنا"
-      className="md:px-14 px-4 my-24 max-w-screen-2xl mx-auto pt-[120px]"
+      className="md:px-14 px-4 my-24 max-w-screen-2xl mx-auto md:pt-[120px]"
     >
       <div className="header-sec mb-[50px]">
         <h1 class="main_title_Articles-one">ما يميزنا</h1>

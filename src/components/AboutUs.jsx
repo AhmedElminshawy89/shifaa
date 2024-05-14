@@ -3,7 +3,7 @@ import about2 from "../assets/img/about2.jpg";
 const AboutUS = () => {
   return (
     <div
-      className="md:px-14 p-4 max-w-screen-lg md:mx-auto pt-[120px]"
+      className="md:px-14 p-4 max-w-screen-lg md:mx-auto md:pt-[120px] pt-[0px]"
       id="تعرف_علينا"
     >
       <div className="header-sec mb-[50px]">
