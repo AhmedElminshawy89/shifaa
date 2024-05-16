@@ -11,6 +11,8 @@ const SwiperHome = () => {
       <Swiper
         direction={"vertical"}
         slidesPerView={1}
+        autoplay={{ delay: 100 }}
+        loop
         spaceBetween={30}
         mousewheel={true}
         pagination={{
@@ -18,7 +20,7 @@ const SwiperHome = () => {
         }}
         modules={[Mousewheel, Pagination]}
         className="mySwiper"
-      >
+        >
         <SwiperSlide>
           <div className="img-wrapper-swiper">
             <img src={slide1} alt="" className="img-swiper" />
@@ -27,9 +29,9 @@ const SwiperHome = () => {
                 متاح تقديم خدمات التمريض المنزلي لرعاية كبار السن على أعلى مستوى
                 .
               </p>
-              <button className="btn-contact-us">
-                <a href="">للتواصل معنا</a>
-              </button>
+              <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+                للتواصل معنا
+              </a>
             </div>
           </div>
         </SwiperSlide>
@@ -41,9 +43,9 @@ const SwiperHome = () => {
                 توفير رعاية تمريضية منزلية متميزة لكبار السن بأفضل معايير
                 الجودة.
               </p>
-              <button className="btn-contact-us">
-                <a href="">للتواصل معنا</a>
-              </button>
+              <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+                للتواصل معنا
+              </a>
             </div>
           </div>
         </SwiperSlide>
@@ -55,9 +57,9 @@ const SwiperHome = () => {
                 تقديم خدمات تمريض منزلي عالي الجودة لرعاية كبار السن بكفاءة
                 عالية.
               </p>
-              <button className="btn-contact-us">
-                <a href="">للتواصل معنا</a>
-              </button>
+              <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+               للتواصل معنا
+              </a>
             </div>
           </div>
         </SwiperSlide>

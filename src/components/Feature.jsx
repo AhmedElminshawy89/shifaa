@@ -8,15 +8,15 @@ const Feature = () => {
       className="md:px-14 px-4 my-24 max-w-screen-2xl mx-auto md:pt-[120px]"
     >
       <div className="header-sec mb-[50px]">
-        <h1 class="main_title_Articles-one">ما يميزنا</h1>
-        <h1 class="main_title_Articles-two">لماذا نحن نختلف عن الاخرون؟</h1>
+        <h1 className="main_title_Articles-one">ما يميزنا</h1>
+        <h1 className="main_title_Articles-two">لماذا نحن نختلف عن الاخرون؟</h1>
       </div>
       <div className="flex lg:flex-row flex-col items-start justify-between">
         <div className="lg:w-1/4 mr-8">
-          <h3 className="text-3xl text-primary font-bold mb-3">
+          <h3 className="text-3xl text-[#271e5c] font-bold mb-3">
             الرعاية الطبية المتميزة في منزلك
           </h3>
-          <p className="text-base text-tartiary">
+          <p className="text-base text-[#555]">
             نحن نبرز كخيار متميز بفضل التزامنا بتقديم خدمات طبية منزلية بجودة لا
             مثيل لها. يتميز فريقنا بالكفاءة والاحترافية في توصيل المعامل الطبية
             مباشرة إلى باب منزل العميل، مما يوفر لهم راحة البال والرعاية الصحية
@@ -30,8 +30,8 @@ const Feature = () => {
               className="bg-[rgba(255,255,255,.04)] rounded-[35px] h-96 shadow-2xl p-8  flex justify-center items-center flex-wrap
                 hover:-translate-y-4  transition-all duration-300 cursor-pointer"
             >
-              <img src={feature} alt="" className="rounded-lg" />
-              <h5 className="text-2xl font-semibold text-primary px-5 text-center mt-5">
+              <img src={feature} alt="" className="rounded-lg max-w-[400px] w-[100%]" />
+              <h5 className="text-2xl font-semibold text-[#271e5c] px-5 text-center mt-5">
                 توصيل المعامل إلى باب منزلك.
               </h5>
             </div>
@@ -39,8 +39,8 @@ const Feature = () => {
               className="bg-[rgba(255,255,255,.04)] rounded-[35px] h-96 shadow-2xl p-8 flex justify-center items-center flex-wrap
                 hover:-translate-y-4  transition-all duration-300 cursor-pointer md:mt-16"
             >
-              <img src={feature2} alt="" className="rounded-lg" />
-              <h5 className="text-2xl font-semibold text-primary px-5 text-center mt-5">
+              <img src={feature2} alt="" className="rounded-lg max-w-[400px] w-[100%]" />
+              <h5 className="text-2xl font-semibold text-[#271e5c] px-5 text-center mt-5">
                 تقديم مركز الاشعه إلى باب منزلك.
               </h5>
             </div>
@@ -48,8 +48,8 @@ const Feature = () => {
               className="bg-[rgba(255,255,255,.04)] rounded-[35px] h-96 shadow-2xl p-8  flex justify-center items-center flex-wrap
                 hover:-translate-y-4  transition-all duration-300 cursor-pointer"
             >
-              <img src={feature3} alt="" className="rounded-lg" />
-              <h5 className="text-2xl font-semibold text-primary px-5 text-center mt-5">
+              <img src={feature3} alt="" className="rounded-lg max-w-[400px] w-[100%]" />
+              <h5 className="text-2xl font-semibold text-[#271e5c] px-5 text-center mt-5">
                 التنقل مع المريض ومرافقته فى السفر .
               </h5>
             </div>

@@ -7,18 +7,18 @@ const AboutUS = () => {
       id="تعرف_علينا"
     >
       <div className="header-sec mb-[50px]">
-        <h1 class="main_title_Articles-one">تعرف علينا</h1>
-        <h1 class="main_title_Articles-two">راحتك معنا في كل خطوة.</h1>
+        <h1 className="main_title_Articles-one">تعرف علينا</h1>
+        <h1 className="main_title_Articles-two">راحتك معنا في كل خطوة.</h1>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="md:w-1/2 w-100">
           <img src={about} alt="" className="rounded-lg" />
         </div>
         <div className="md:w-2/4 w-100">
-          <h2 className="md:text-5xl text-3xl font-bold text-primary mb-5 leading-normal">
+          <h2 className="md:text-5xl text-3xl font-bold text-[#271e5c] mb-5 leading-normal">
             خدماتنا المتميزة في الرعاية الصحية المنزلية
           </h2>
-          <p className="text-tartiary text-lg mb-7">
+          <p className="text-[#555] text-lg mb-7">
             نوفر الرفاهية والراحة للمرضى من خلال المرافقة وتوفير الدعم اللازم.
             نضمن تلبية احتياجات المرضى الغذائية بإشرافنا على الوجبات اليومية
             وتقديم التذكير بالأدوية. نحرص على مظهر المريض واحترام خصوصيته، مما
@@ -26,9 +26,9 @@ const AboutUS = () => {
             تناولها، بالإضافة إلى مساعدتهم في التنقل وتمارين العلاج الطبيعي
             بالمنزل.
           </p>
-          <button className="btn-contact-us">
-            <a href="/">للتواصل معنا</a>
-          </button>{" "}
+          <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+            للتواصل معنا
+          </a>{" "}
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-8 mt-[100px]">
@@ -36,10 +36,10 @@ const AboutUS = () => {
           <img src={about2} alt="" className="rounded-lg" />
         </div>
         <div className="md:w-2/4 w-100">
-          <h2 className="md:text-5xl text-3xl font-bold text-primary mb-5 leading-normal">
+          <h2 className="md:text-5xl text-3xl font-bold text-[#271e5c] mb-5 leading-normal">
             دعمنا لراحتك في كل تفاصيل الحياة اليومية
           </h2>
-          <p className="text-tartiary text-lg mb-7">
+          <p className="text-tartiary text-lg mb-7 text-[#555]">
             تجهيز الملابس الشخصية والمساعدة في ارتدائها، جزء من خدماتنا التي
             تسعى لتسهيل حياتك اليومية وجعلها أكثر راحة ويسرًا. مرافقة المريض
             والمشاركة الاجتماعية معه في السفر وفي جميع الأنشطة اليومية، هو جزء
@@ -48,9 +48,9 @@ const AboutUS = () => {
             الوجبات والرعاية اليومية، لتضمن أن تكون بيئته مريحة ومرتبة بشكل
             يساعده على الشعور بالراحة والأمان.
           </p>
-          <button className="btn-contact-us">
-            <a href="/">للتواصل معنا</a>
-          </button>{" "}
+          <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+            للتواصل معنا
+          </a>{" "}
         </div>
       </div>
     </div>
