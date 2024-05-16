@@ -25,7 +25,7 @@ const SwiperHome = () => {
           <div className="img-wrapper-swiper">
             <img src={slide1} alt="" className="img-swiper" />
             <div className="content-text">
-              <p>
+              <p className="pb-10">
                 متاح تقديم خدمات التمريض المنزلي لرعاية كبار السن على أعلى مستوى
                 .
               </p>
@@ -39,11 +39,11 @@ const SwiperHome = () => {
           <div className="img-wrapper-swiper">
             <img src={slide2} alt="" className="img-swiper" />
             <div className="content-text">
-              <p>
+              <p className="pb-10">
                 توفير رعاية تمريضية منزلية متميزة لكبار السن بأفضل معايير
                 الجودة.
               </p>
-              <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+              <a className="btn-contact-us mt-20" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
                 للتواصل معنا
               </a>
             </div>
@@ -53,7 +53,7 @@ const SwiperHome = () => {
           <div className="img-wrapper-swiper">
             <img src={slide3} alt="" className="img-swiper" />
             <div className="content-text">
-              <p>
+              <p className="pb-10">
                 تقديم خدمات تمريض منزلي عالي الجودة لرعاية كبار السن بكفاءة
                 عالية.
               </p>
