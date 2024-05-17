@@ -15,10 +15,10 @@ const AboutUS = () => {
           <img src={about} alt="" className="rounded-lg" />
         </div>
         <div className="md:w-2/4 w-100">
-          <h2 className="md:text-5xl text-3xl font-bold text-[#271e5c] mb-5 leading-normal">
+          <h2 className="md:text-5xl text-3xl font-bold  mb-5 leading-normal">
             خدماتنا المتميزة في الرعاية الصحية المنزلية
           </h2>
-          <p className="text-[#555] text-lg mb-7">
+          <p className="desc-serv text-lg mb-7">
             نوفر الرفاهية والراحة للمرضى من خلال المرافقة وتوفير الدعم اللازم.
             نضمن تلبية احتياجات المرضى الغذائية بإشرافنا على الوجبات اليومية
             وتقديم التذكير بالأدوية. نحرص على مظهر المريض واحترام خصوصيته، مما
@@ -26,7 +26,12 @@ const AboutUS = () => {
             تناولها، بالإضافة إلى مساعدتهم في التنقل وتمارين العلاج الطبيعي
             بالمنزل.
           </p>
-          <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+          <a
+            className="btn-contact-us"
+            href="https://wa.me/+201284904444"
+            target="_blank"
+            rel="noreferrer"
+          >
             للتواصل معنا
           </a>{" "}
         </div>
@@ -36,10 +41,10 @@ const AboutUS = () => {
           <img src={about2} alt="" className="rounded-lg" />
         </div>
         <div className="md:w-2/4 w-100">
-          <h2 className="md:text-5xl text-3xl font-bold text-[#271e5c] mb-5 leading-normal">
+          <h2 className="md:text-5xl text-3xl font-bold  mb-5 leading-normal">
             دعمنا لراحتك في كل تفاصيل الحياة اليومية
           </h2>
-          <p className="text-tartiary text-lg mb-7 text-[#555]">
+          <p className="text-tartiary text-lg mb-7 desc-serv">
             تجهيز الملابس الشخصية والمساعدة في ارتدائها، جزء من خدماتنا التي
             تسعى لتسهيل حياتك اليومية وجعلها أكثر راحة ويسرًا. مرافقة المريض
             والمشاركة الاجتماعية معه في السفر وفي جميع الأنشطة اليومية، هو جزء
@@ -48,7 +53,12 @@ const AboutUS = () => {
             الوجبات والرعاية اليومية، لتضمن أن تكون بيئته مريحة ومرتبة بشكل
             يساعده على الشعور بالراحة والأمان.
           </p>
-          <a className="btn-contact-us" href="https://wa.me/+20 128 490 4444" target="_blank" rel="noreferrer">
+          <a
+            className="btn-contact-us"
+            href="https://wa.me/+201284904444"
+            target="_blank"
+            rel="noreferrer"
+          >
             للتواصل معنا
           </a>{" "}
         </div>

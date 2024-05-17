@@ -13,10 +13,10 @@ const Feature = () => {
       </div>
       <div className="flex lg:flex-row flex-col items-start justify-between">
         <div className="lg:w-1/4 mr-8">
-          <h3 className="text-3xl text-[#271e5c] font-bold mb-3">
+          <h3 className="text-3xl  font-bold mb-3">
             الرعاية الطبية المتميزة في منزلك
           </h3>
-          <p className="text-base text-[#555]">
+          <p className="text-base desc-serv">
             نحن نبرز كخيار متميز بفضل التزامنا بتقديم خدمات طبية منزلية بجودة لا
             مثيل لها. يتميز فريقنا بالكفاءة والاحترافية في توصيل المعامل الطبية
             مباشرة إلى باب منزل العميل، مما يوفر لهم راحة البال والرعاية الصحية
@@ -31,7 +31,7 @@ const Feature = () => {
                 hover:-translate-y-4  transition-all duration-300 cursor-pointer"
             >
               <img src={feature} alt="" className="rounded-lg max-w-[400px] w-[100%]" />
-              <h5 className="text-2xl font-semibold text-[#271e5c] px-5 text-center mt-5">
+              <h5 className="text-2xl font-semibold  px-5 text-center mt-5">
                 توصيل المعامل إلى باب منزلك.
               </h5>
             </div>
@@ -40,7 +40,7 @@ const Feature = () => {
                 hover:-translate-y-4  transition-all duration-300 cursor-pointer md:mt-16"
             >
               <img src={feature2} alt="" className="rounded-lg max-w-[400px] w-[100%]" />
-              <h5 className="text-2xl font-semibold text-[#271e5c] px-5 text-center mt-5">
+              <h5 className="text-2xl font-semibold  px-5 text-center mt-5">
                 تقديم مركز الاشعه إلى باب منزلك.
               </h5>
             </div>
@@ -49,7 +49,7 @@ const Feature = () => {
                 hover:-translate-y-4  transition-all duration-300 cursor-pointer"
             >
               <img src={feature3} alt="" className="rounded-lg max-w-[400px] w-[100%]" />
-              <h5 className="text-2xl font-semibold text-[#271e5c] px-5 text-center mt-5">
+              <h5 className="text-2xl font-semibold  px-5 text-center mt-5">
                 التنقل مع المريض ومرافقته فى السفر .
               </h5>
             </div>
