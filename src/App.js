@@ -2,6 +2,7 @@ import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import ContactBtn from "./components/ContactBtn";
+import ContactPhone from "./components/ContactPhone";
 import FavOther from "./components/FavOther";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <ScrollTopBtn />
       <ContactBtn />
+      <ContactPhone />
       <SwiperHome />
       <Services />
       <AboutUs />

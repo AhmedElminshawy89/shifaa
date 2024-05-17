@@ -36,7 +36,7 @@ const Header = () => {
     <>
       <header>
         <div className="container">
-          <h1 className="logo">شفاء للرعايه الطبيه</h1>
+          <h1 className="logo">شفاء للرعاية الطبية</h1>
           <div className="bar" onClick={handleActiveDrawer}>
             <FaBars />
           </div>

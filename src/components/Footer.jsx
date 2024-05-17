@@ -23,7 +23,7 @@ const Footer = () => {
               className="w-10 inline-block items-center rounded-full ml-2"
               alt=""
             />
-            <span className="text-white">شفاء للرعايه الطبيه</span>
+            <span className="text-white">شفاء للرعاية الطبية</span>
           </a>
           <p className="md:w-1/2">
             مع شفاء للرعاية الطبية نحن نقدم لك أعلى مستويات الخدمات الطبية،
